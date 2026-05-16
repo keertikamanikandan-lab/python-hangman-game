@@ -55,18 +55,18 @@ Key focus areas:
 ```text
 📦 python-hangman-game/
 │
-├── 📂 python notebook/
+├── 📂 notebook/
 │   └── 📓 Hangman_game.ipynb
 │
 ├── 📂 screenshots/
 │   ├── 📸 start.png
-│   ├── 📂 loss/
-│   │   ├── 📸 1.png
-│   │   └── 📸 2.png
 │   ├── 📂 win/
 │   │   ├── 📸 1.png
 │   │   └── 📸 2.png
-│
+│   ├── 📂 loss/
+│   │   ├── 📸 1.png
+│   │   └── 📸 2.png
+|
 └── 📜 README.md
 ```
 --- 
@@ -94,6 +94,16 @@ Each incorrect guess updates the hangman drawing step-by-step, providing clear f
 
 ---
 
+### 🎉 Win Scenario
+
+#### Stage 1
+![Win 1](screenshots/win/1.png)
+
+#### Stage 2
+![Win 2](screenshots/win/2.png)
+
+---
+
 ### 💀 Loss Scenario
 
 #### Stage 1
@@ -104,15 +114,6 @@ Each incorrect guess updates the hangman drawing step-by-step, providing clear f
 
 ---
 
-### 🎉 Win Scenario
-
-#### Stage 1
-![Win 1](screenshots/win/1.png)
-
-#### Stage 2
-![Win 2](screenshots/win/2.png)
-
----
 
 ## ▶️ Open in Google Colab
 
@@ -127,22 +128,19 @@ Each incorrect guess updates the hangman drawing step-by-step, providing clear f
 
 ## 🚀 How to Run the Project
 
-1. Download or clone this repository.
+1. Download or clone this repository:
 
 ```bash
 git clone https://github.com/keertikamanikandan-lab/python-hangman-game.git
 ```
 
-3. Open the notebook:
+2. Open the project folder.
 
-👉 [Open Hangman Notebook](https://github.com/keertikamanikandan-lab/python-hangman-game/blob/main/Hangman_game.ipynb)
+3. Open `Hangman_game.ipynb` in:
+- Google Colab (recommended)
+- Jupyter Notebook
 
-3. Open using:
-- Google Colab
-
-
-4. Run all notebook cells to start the game.
-
+4. Run all cells to start the game.
 
 ---
 
@@ -151,7 +149,7 @@ git clone https://github.com/keertikamanikandan-lab/python-hangman-game.git
 2. The player guesses one letter at a time
 3. Correct guesses reveal letters in the word
 4. Incorrect guesses reduce remaining attempts
-5.The game ends when:
+5. The game ends when:
 - ✔ The word is fully guessed → You win
 - ❌ Lives reach 0 → You lose
   
