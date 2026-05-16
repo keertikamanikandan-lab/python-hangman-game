@@ -1,4 +1,4 @@
-# 🎯 Hangman Game – Python Console Application
+# Hangman Game – Python Console Application
 
 A classic **Hangman word guessing game** built in Python with random word selection, input validation, and ASCII-based visual feedback.
 
