@@ -52,26 +52,29 @@ Key focus areas:
 
 ## 📁 Project Structure
 
-    📦 python-hangman-game
-     │
-     ├── 📂 python notebook
-     |    L 📓 Hangman_game.ipynb
-     ├── 📂 screenshots
-     |    ├── 📸 start.png
-     |    ├── 📂 loss/ 
-     |    |   ├── 📸 1.png
-     |    |   ├── 📸 2.png
-     |    ├── 📂 win/  
-     |    |   ├── 📸 1.png
-     |    |   ├── 📸 2.png
-     ├── 📜README.md # Project documentation
-
+```text
+📦 python-hangman-game/
+│
+├── 📂 python notebook/
+│   └── 📓 Hangman_game.ipynb
+│
+├── 📂 screenshots/
+│   ├── 📸 start.png
+│   ├── 📂 loss/
+│   │   ├── 📸 1.png
+│   │   └── 📸 2.png
+│   ├── 📂 win/
+│   │   ├── 📸 1.png
+│   │   └── 📸 2.png
+│
+└── 📜 README.md
+```
 --- 
 ## 🎨 Visualisation
 
 The game uses **ASCII art** to visually represent the Hangman progression in the terminal.
 
-Each  incorrect guess updates the hangman drawing step-by-step, providing clear feedback on remaining attempts.
+Each incorrect guess updates the hangman drawing step-by-step, providing clear feedback on remaining attempts.
 
 
        ------
@@ -81,22 +84,67 @@ Each  incorrect guess updates the hangman drawing step-by-step, providing clear 
       / \   |
             |
      ==============  
-     
+
+---
+
+## 📸 Screenshots
+
+### 🎮 Start Screen
+![Start](screenshots/start.png)
+
+---
+
+### 💀 Loss Scenario
+
+#### Stage 1
+![Loss 1](screenshots/loss/1.png)
+
+#### Stage 2
+![Loss 2](screenshots/loss/2.png)
+
+---
+
+### 🎉 Win Scenario
+
+#### Stage 1
+![Win 1](screenshots/win/1.png)
+
+#### Stage 2
+![Win 2](screenshots/win/2.png)
+
+---
+
+## ▶️ Open in Google Colab
+
+👉 [Open Notebook in Colab](https://colab.research.google.com/github/keertikamanikandan-lab/python-hangman-game/blob/main/Hangman_game.ipynb)
+
+
+## 🔗 GitHub Repository
+
+🔗 [View GitHub Repository](https://github.com/keertikamanikandan-lab/python-hangman-game)
 
 ---
 
 ## 🚀 How to Run the Project
 
-### 1. Clone the repository
+1. Download or clone this repository.
+
 ```bash
-git clone https://github.com/your-username/hangman-game.git
+git clone https://github.com/keertikamanikandan-lab/python-hangman-game.git
+```
 
-````
-### 2. Navigate to project folder
-cd hangman-game
+3. Open the notebook:
 
-### 3. Run the game
-python hangman.py
+👉 [Open Hangman Notebook](https://github.com/keertikamanikandan-lab/python-hangman-game/blob/main/Hangman_game.ipynb)
+
+3. Open using:
+- Google Colab
+
+
+4. Run all notebook cells to start the game.
+
+
+---
 
 ## 🎮 How to Play
 1. A random word is selected at the start of the game
@@ -106,6 +154,8 @@ python hangman.py
 5.The game ends when:
 - ✔ The word is fully guessed → You win
 - ❌ Lives reach 0 → You lose
+  
+---
 
 ## 🧾 Conclusion
 
@@ -114,9 +164,6 @@ This project demonstrates a fully functional command-line Hangman game built usi
 It showcases the ability to design structured logic, manage state effectively, and build an interactive application from scratch.
 
 Overall, this project strengthens foundational programming skills and serves as a base for more advanced applications such as GUI-based or web-based games.
-
-
-
 
 
 
