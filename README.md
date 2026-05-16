@@ -116,7 +116,7 @@ Each incorrect guess updates the hangman drawing step-by-step, providing clear f
 
 ## ▶️ Run in Google Colab (Recommended)
 
-👉 [Open Notebook in Colab](https://colab.research.google.com/github/keertikamanikandan-lab/python-hangman-game/blob/main/notebook/Hangman_game.ipynb)
+👉 [Run Notebook in Google Colab (No setup required)](https://colab.research.google.com/github/keertikamanikandan-lab/python-hangman-game/blob/main/notebook/Hangman_game.ipynb)
 
 ---
 
