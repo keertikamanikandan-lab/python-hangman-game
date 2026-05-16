@@ -66,14 +66,15 @@ The game uses **ASCII art** to visually represent the Hangman progression in the
 
 Each incorrect guess updates the hangman drawing step-by-step, providing clear feedback on remaining attempts.
 
-      ============
+
        ------
        |    |
        O    |
-     / | \\  |
-      / \\   |
-          |
-     ============
+     / | \  |
+      / \   |
+            |
+     ==============  
+     
 
 ---
 
