@@ -52,19 +52,26 @@ Key focus areas:
 
 ## 📁 Project Structure
 
-    📦hangman-game/
+    📦 python-hangman-game
      │
-     ├── 📓hangman.py # Main game logic
-     ├── 📸screenshots
+     ├── 📂 python notebook
+     |    L 📓 Hangman_game.ipynb
+     ├── 📂 screenshots
+     |    ├── 📸 start.png
+     |    ├── 📂 loss/ 
+     |    |   ├── 📸 1.png
+     |    |   ├── 📸 2.png
+     |    ├── 📂 win/  
+     |    |   ├── 📸 1.png
+     |    |   ├── 📸 2.png
      ├── 📜README.md # Project documentation
 
----
-
+--- 
 ## 🎨 Visualisation
 
 The game uses **ASCII art** to visually represent the Hangman progression in the terminal.
 
-Each incorrect guess updates the hangman drawing step-by-step, providing clear feedback on remaining attempts.
+Each  incorrect guess updates the hangman drawing step-by-step, providing clear feedback on remaining attempts.
 
 
        ------
