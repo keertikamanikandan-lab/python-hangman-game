@@ -4,6 +4,10 @@ A classic **Hangman word guessing game** built in Python with random word select
 
 This project demonstrates core programming fundamentals including loops, conditionals, list manipulation, and user input handling in a structured game environment.
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Game](https://img.shields.io/badge/Type-Console%20Game-purple)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 ---
 
 ## 🎯 Project Overview
